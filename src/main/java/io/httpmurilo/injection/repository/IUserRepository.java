@@ -1,6 +1,6 @@
 package io.httpmurilo.injection.repository;
 
-import org.apache.catalina.User;
+import io.httpmurilo.injection.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
