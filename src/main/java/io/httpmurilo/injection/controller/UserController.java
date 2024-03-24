@@ -17,7 +17,7 @@ public class UserController {
     private IUserRepository repository;
 
     @GetMapping(value = "/search")
-    public ResponseEntity<User> findByName(@RequestParam  String name) {
+    public ResponseEntity<User> findByName(@RequestParam String name) {
         var user = repository.getUserByName(name);
         return ResponseEntity.ok((User) user);
     }

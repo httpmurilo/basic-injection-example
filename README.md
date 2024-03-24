@@ -9,3 +9,6 @@
 
 ### Comando para buildar a aplicação e executar
 `gradle build && gradle bootRun`
+
+### Em caso de cache executar
+`--refresh-dependencies junto com o build`
